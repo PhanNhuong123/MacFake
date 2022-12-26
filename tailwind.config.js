@@ -16,6 +16,7 @@ module.exports = {
       },
       colors: {
         "system-Blue": "#007AFF",
+        "dock-colors": "#F4F5F5BF"
       },
     },
   },

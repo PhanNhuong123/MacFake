@@ -1,6 +1,8 @@
 <div class="w-screen h-screen flex justify-center items-center">
     <div class="w-mac-screen h-mac-screen origin-center bg-desktop-light bg-cover bg-no-repeat dark:bg-desktop-dark"
         [ngStyle]="{'transform' : getPerScreenScale() }">
-
+        <div class="w-fit">
+            <app-dock class="fixed origin-center transform translate-x-1/2 w-fit bottom-4 bottom right-1/2"></app-dock>
+        </div>
     </div>
 </div>
