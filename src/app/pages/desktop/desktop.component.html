@@ -1,5 +1,6 @@
-<div>
-    <div class="w-mac-screen h-mac-screen m-auto bg-desktop-light bg-no-repeat dark:bg-desktop-dark">
+<div class="w-screen h-screen flex justify-center items-center">
+    <div class="w-mac-screen h-mac-screen origin-center bg-desktop-light bg-cover bg-no-repeat dark:bg-desktop-dark"
+        [ngStyle]="{'transform' : getPerScreenScale() }">
 
     </div>
 </div>
